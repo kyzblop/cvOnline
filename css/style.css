@@ -30,6 +30,11 @@ a{
     background: linear-gradient(rgb(255, 255, 255), rgb(218, 218, 218));
 }
 
+.background-foot{
+    background-color: black;
+    color: rgb(218, 218, 218);
+}
+
 .pad{
     padding: 0 150px 0 150px;
 }
@@ -43,7 +48,7 @@ a{
 }
 
 .icons{
-    color: black !important;
+    color: rgb(218, 218, 218);
     padding: 0 15px 0 15px;
 }
 
@@ -54,4 +59,7 @@ a{
     justify-content: center;
     
 }
+
+
+
 
