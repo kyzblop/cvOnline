@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+}
+
+#photoProfil{
+    width: 250px;
+    height: 250px;
+    
+    object-fit: cover;
+}
+
+.card-img-top{
+    width: 150px;
+    height: 150px;
+
+    object-fit: contain;
+}
+
+.card{
+    margin: 15px;
+
+    padding: 20px;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.background{
+    background: linear-gradient(rgb(255, 255, 255), rgb(218, 218, 218));
+}
+
+.pad{
+    padding: 0 150px 0 150px;
+}
+
+/* Icones de fontawesome, ne pas oublier le lien en debut de doc HTML pour lire les codes icones */
+.fontawesome {
+    font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands", sans-serif;
+    font-weight: 900;
+
+    font-size: xx-large;
+}
+
+.icons{
+    color: black !important;
+    padding: 0 15px 0 15px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    
+}
+
