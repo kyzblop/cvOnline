@@ -18,8 +18,9 @@ body{
 
 .card{
     margin: 15px;
-
     padding: 20px;
+
+    height: 300px !important;
 }
 
 a{
@@ -36,7 +37,7 @@ a{
 }
 
 .pad{
-    padding: 0 150px 0 150px;
+    padding: 0 10% 0 10%;
 }
 
 /* Icones de fontawesome, ne pas oublier le lien en debut de doc HTML pour lire les codes icones */
