@@ -7,5 +7,6 @@ Liste des projets accessibles depuis le CV :
   - Casino en ligne en HTML/CSS et JS
 
 
-![image](https://github.com/user-attachments/assets/53943dbb-2e77-457f-958d-1a24af2f26f7)
+![image](https://github.com/user-attachments/assets/adccd869-cc27-4f36-8e0c-e216c1e07d34)
+
 
