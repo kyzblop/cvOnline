@@ -10,6 +10,10 @@ body{
     object-fit: cover;
 }
 
+.cvTelecharge:hover{
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
 .card-img-top{
     width: 150px;
     height: 150px;
@@ -22,6 +26,10 @@ body{
     padding: 20px;
 
     height: 300px !important;
+}
+
+.projets:hover{
+    box-shadow: 0 0 10px rgb(0, 0, 0);
 }
 
 a{
