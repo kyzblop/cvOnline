@@ -1,75 +1,87 @@
-body{
-    margin: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+@keyframes appear {
+  from {
+    opacity: 0;
+    scale: 0.5;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
 }
 
-#photoProfil{
-    width: 250px;
-    height: 250px;
-    
-    object-fit: cover;
+body {
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif !important;
 }
 
-.cvTelecharge:hover{
-    text-shadow: 0 0 10px rgb(0, 0, 0);
+#photoProfil {
+  width: 250px;
+  height: 250px;
+
+  object-fit: cover;
 }
 
-.card-img-top{
-    width: 150px;
-    height: 150px;
-
-    object-fit: contain;
+.cvTelecharge:hover {
+  text-shadow: 0 0 10px rgb(0, 0, 0);
 }
 
-.card{
-    margin: 15px;
-    padding: 20px;
+.card-img-top {
+  width: 150px;
+  height: 150px;
 
-    height: 300px !important;
+  object-fit: contain;
 }
 
-.projets:hover{
-    box-shadow: 0 0 10px rgb(0, 0, 0);
+.card {
+  margin: 15px;
+  padding: 20px;
+
+  height: 300px !important;
+
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 30%;
 }
 
-a{
-    text-decoration: none !important;
+.projets:hover {
+  box-shadow: 0 0 10px rgb(0, 0, 0);
 }
 
-.background{
-    background: linear-gradient(rgb(255, 255, 255), rgb(218, 218, 218));
+a {
+  text-decoration: none !important;
 }
 
-.background-foot{
-    background-color: black;
-    color: rgb(218, 218, 218);
+.background {
+  background: linear-gradient(rgb(255, 255, 255), rgb(218, 218, 218));
 }
 
-.pad{
-    padding: 0 10% 0 10%;
+.background-foot {
+  background-color: black;
+  color: rgb(218, 218, 218);
+}
+
+.pad {
+  padding: 0 10% 0 10%;
 }
 
 /* Icones de fontawesome, ne pas oublier le lien en debut de doc HTML pour lire les codes icones */
 .fontawesome {
-    font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands", sans-serif;
-    font-weight: 900;
+  font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands", sans-serif;
+  font-weight: 900;
 
-    font-size: xx-large;
+  font-size: xx-large;
 }
 
-.icons{
-    color: rgb(218, 218, 218);
-    padding: 0 15px 0 15px;
+.icons {
+  color: rgb(218, 218, 218);
+  padding: 0 15px 0 15px;
 }
 
-.contact{
-    display: flex;
-    flex-direction: row;
+.contact {
+  display: flex;
+  flex-direction: row;
 
-    justify-content: center;
-    
+  justify-content: center;
 }
-
-
 
 

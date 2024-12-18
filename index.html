@@ -16,6 +16,7 @@
       crossorigin="anonymous"
     />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js" defer></script>
   </head>
   <body>
     <!-- NavBar -->
@@ -54,7 +55,7 @@
       <!-- Qui suis-je ? -->
       <div
         id="qui"
-        class="row d-flex justify-content-center align-items-center py-5 background pad"
+        class="row d-flex flex-row justify-content-center align-items-center py-5 background pad"
       >
         <img
           src="images/new Photo LinkedIn.jpg"
@@ -95,7 +96,7 @@
           <br />
           <h2>Ce que j'utilise</h2>
           <br />
-          <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div id="competencesCards" class="row row-cols-1 row-cols-md-4 g-4">
             <div class="col">
               <div class="card">
                 <img
@@ -222,17 +223,19 @@
               </div>
             </div>
 
-            <!-- 
-                    <div class="col">
-                        <div class="card">
-                            <img src="images/icons/icon_jenkins.png" class="card-img-top" alt="icon_jenkins">
-                            <div class="card-body">
-                                <h5 class="card-title">Jenkins</h5>
-                                <p class="card-text">Automatisation de tests</p>
-                            </div>
-                        </div>   
-                    </div>
-            -->
+            <div class="col">
+              <div class="card">
+                <img
+                  src="images/icons/icon_jenkins.png"
+                  class="card-img-top"
+                  alt="icon_jenkins"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Jenkins</h5>
+                  <p class="card-text">Automatisation de tests</p>
+                </div>
+              </div>
+            </div>
 
             <div class="col">
               <div class="card">
@@ -288,7 +291,7 @@
                 <div class="card-body">
                   <h5 class="card-title">ETL Talend</h5>
                   <p class="card-text">
-                    Extraction, transformation et chargement de données
+                    Extraction et transformation de données
                   </p>
                 </div>
               </div>
@@ -311,6 +314,20 @@
             <div class="col">
               <div class="card">
                 <img
+                  src="images/icons/icon_docker.png"
+                  class="card-img-top"
+                  alt="icon_docker"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Docker</h5>
+                  <p class="card-text">Build de projets</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card">
+                <img
                   src="images/icons/icon_starUML.png"
                   class="card-img-top"
                   alt="icon_starUML"
@@ -318,6 +335,20 @@
                 <div class="card-body">
                   <h5 class="card-title">StarUML</h5>
                   <p class="card-text">Conception de projet Java</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card">
+                <img
+                  src="images/icons/icon_figma.jpg"
+                  class="card-img-top"
+                  alt="icon_figma"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Figma</h5>
+                  <p class="card-text">Design</p>
                 </div>
               </div>
             </div>
@@ -350,7 +381,7 @@
           <br />
           <h3>Projet principal</h3>
           <br />
-          <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="row row-cols-1 row-cols-md-1 g-4">
             <div class="col">
               <a href="https://kyzblop.github.io/Plume_d_Enfant_Front/">
                 <div class="card projets">
@@ -362,8 +393,8 @@
                   <div class="card-body">
                     <h5 class="card-title">Plume d'Enfant</h5>
                     <p class="card-text">
-                      Réalisation d'un site de génération par IA d'histoires
-                      pour enfant en Java et Angular
+                      Réalisation d'un site de génération d'histoires pour
+                      enfant par IA en Java et Angular
                     </p>
                   </div>
                 </div>
@@ -374,7 +405,10 @@
           <br />
           <h3>Projets secondaires</h3>
           <br />
-          <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div
+            id="projetsSecondaireCards"
+            class="row row-cols-1 row-cols-md-3 g-4"
+          >
             <div class="col">
               <a href="https://kyzblop.github.io/maquette/">
                 <div class="card projets">
